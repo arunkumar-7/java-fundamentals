@@ -61,6 +61,47 @@ public class Primitives {
         System.out.println("My Aadhar Number :" + aadharNumber);
         System.out.println("My Bank Account Number :" + bankAccountNumber);
 
+        System.out.println("-------------------------");
+        //Assignment
+        // product variables
+
+        int productId = 1234567;
+        short quantity = 150;
+        float productPrice2 = 50000F;
+        boolean isDiscountAvailable = true;
+        float discount = 10.5F;
+        System.out.println("product ID :" + productId);
+        System.out.println("quantity required :" + quantity);
+        System.out.println("The price of the product :" + productPrice2 );
+        System.out.println("Is the product eligible for discount?:" + isDiscountAvailable );
+        System.out.println("Discount percentage :" + discount + "%" );
+
+        System.out.println("--------------------");
+
+        // Customer variables
+        int customerId = 9632584;
+        byte customerAge = 22;
+        char gender = 'M';
+        boolean isAPrimeMember = true ;
+        System.out.println("Customer ID:" + customerId);
+        System.out.println("Customer Age:" + customerAge);
+        System.out.println("Gender:" + gender);
+        System.out.println("Is A Prime Member:" + isAPrimeMember);
+
+        System.out.println("-------------------");
+
+        // Order Details
+        int orderId = 456123;
+        short orderQuantity = 200;
+        float unitPrice = 500.5F;
+        double totalPrice = orderQuantity * unitPrice ;
+        System.out.println("Order ID:" + orderId);
+        System.out.println("Required Quantity:" + orderQuantity);
+        System.out.println("price of 1 unit:" + unitPrice);
+        System.out.println("Total Bill Amount:" + totalPrice);
+
+
+
 
     }
 }
